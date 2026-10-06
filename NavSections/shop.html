@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop – Sophie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top slim">
+      <header>
+        <a class="logo" href="index.html"
+          ><!-- IMAGE: images/logo.png (your logo) --><img
+            src="../homepage/image/Elegant Teal Handbag Boutique Logo.png"
+            alt="Sophie logo"
+        /></a>
+        <nav>
+          <a href="../homepage/homepage.html">Home</a
+          ><a class="on" href="shop.html">Shop</a><a href="pages.html">Pages</a
+          ><a href="about.html">About</a><a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="icons">
+          <span>⚙</span><span>🔍</span><span class="cart">🛒<b>0</b></span>
+        </div>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </header>
+      <section class="pb">
+        <h1>Shop</h1>
+        <p><a href="index.html">Home</a> / Shop</p>
+        <p class="sub">Browse every backpack in the collection.</p>
+      </section>
+    </div>
+
+    <main class="wrap shop-main">
+      <div class="shopbar">
+        <div class="filters" role="group" aria-label="Filter products">
+          <button type="button" class="on" data-filter="all">All</button>
+          <button type="button" data-filter="new">New</button>
+          <button type="button" data-filter="sale">Sale</button>
+        </div>
+        <div class="sortbox">
+          <span id="shopCount">Showing 8 products</span>
+          <select id="sort" aria-label="Sort products">
+            <option value="default">Sort: Featured</option>
+            <option value="low">Price: low to high</option>
+            <option value="high">Price: high to low</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="shopGrid">
+        <a class="p" data-tag="new" data-price="85" href="product-1.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-1.png --><img
+              src="images/product-1.png"
+              alt="Vogue Elegance Women&#x27;s Backpack"
+              loading="lazy"
+            />
+          </div>
+          Vogue Elegance Women&#x27;s Backpack
+          <div class="price">£85.00</div></a
+        >
+        <a class="p" data-tag="new" data-price="79.99" href="product-2.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-2.png --><img
+              src="images/product-2.png"
+              alt="Urban Chic Laptop Backpack"
+              loading="lazy"
+            />
+          </div>
+          Urban Chic Laptop Backpack
+          <div class="price">£79.99</div></a
+        >
+        <a class="p" data-tag="sale" data-price="80" href="product-3.html"
+          ><div class="im">
+            <span class="tag">-20%</span
+            ><!-- IMAGE: images/product-3.png --><img
+              src="images/product-3.png"
+              alt="Travel Lite Anti-Theft Backpack"
+              loading="lazy"
+            />
+          </div>
+          Travel Lite Anti-Theft Backpack
+          <div class="price"><s>£100.00</s>£80.00</div></a
+        >
+        <a class="p" data-tag="new" data-price="100" href="product-4.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-4.png --><img
+              src="images/product-4.png"
+              alt="Classic Fashion Backpack"
+              loading="lazy"
+            />
+          </div>
+          Classic Fashion Backpack
+          <div class="price">£100.00</div></a
+        >
+        <a class="p" data-tag="new" data-price="100" href="product-5.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-5.png --><img
+              src="images/product-5.png"
+              alt="Daily Commute Backpack"
+              loading="lazy"
+            />
+          </div>
+          Daily Commute Backpack
+          <div class="price">£100.00</div></a
+        >
+        <a class="p" data-tag="new" data-price="90" href="product-6.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-6.png --><img
+              src="images/product-6.png"
+              alt="Minimalist Daypack"
+              loading="lazy"
+            />
+          </div>
+          Minimalist Daypack
+          <div class="price">£90.00</div></a
+        >
+        <a class="p" data-tag="new" data-price="110" href="product-7.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-7.png --><img
+              src="images/product-7.png"
+              alt="Student Laptop Backpack"
+              loading="lazy"
+            />
+          </div>
+          Student Laptop Backpack
+          <div class="price">£110.00</div></a
+        >
+        <a class="p" data-tag="new" data-price="120" href="product-8.html"
+          ><div class="im">
+            <span class="tag">NEW</span
+            ><!-- IMAGE: images/product-8.png --><img
+              src="images/product-8.png"
+              alt="Outdoor Travel Backpack"
+              loading="lazy"
+            />
+          </div>
+          Outdoor Travel Backpack
+          <div class="price">£120.00</div></a
+        >
+      </div>
+    </main>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2>Contact Us</h2>
+        <p>
+          Questions about a bag or ready to order? Message us directly and we'll
+          reply as soon as we can.
+        </p>
+        <div class="cgrid">
+          <a class="cc wa" data-wa target="_blank" rel="noopener"
+            ><span class="ci">💬</span><b>WhatsApp</b
+            ><small data-text="phone"></small
+          ></a>
+          <a class="cc fb" data-fb target="_blank" rel="noopener"
+            ><span class="ci">f</span><b>Facebook page</b
+            ><small>Follow &amp; message us</small></a
+          >
+          <a class="cc" data-phone
+            ><span class="ci">📞</span><b>Call us</b
+            ><small data-text="phone"></small
+          ></a>
+          <a class="cc" data-email
+            ><span class="ci">✉</span><b>Email</b
+            ><small data-text="email"></small
+          ></a>
+        </div>
+      </div>
+    </section>
+    <a
+      class="float-wa"
+      data-wa
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+      >💬</a
+    >
+    <footer>
+      <div class="flinks">
+        <a href="index.html">Home</a><a href="shop.html">Shop</a
+        ><a href="pages.html">Pages</a><a href="about.html">About</a
+        ><a href="contact.html">Contact Us</a>
+      </div>
+      © <span id="yr"></span> Sophie. All rights reserved.
+    </footer>
+    <script src="site.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us – Sophie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top slim">
+      <header>
+        <a class="logo" href="index.html"
+          ><!-- IMAGE: images/logo.png (your logo) --><img
+            src="../homepage/image/Elegant Teal Handbag Boutique Logo.png"
+            alt="Sophie logo"
+        /></a>
+        <nav>
+          <a href="../homepage/homepage.html">Home</a
+          ><a href="shop.html">Shop</a><a href="pages.html">Pages</a
+          ><a href="about.html">About</a
+          ><a class="on" href="contact.html">Contact Us</a>
+        </nav>
+        <div class="icons">
+          <span>⚙</span><span>🔍</span><span class="cart">🛒<b>0</b></span>
+        </div>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </header>
+      <section class="pb">
+        <h1>Contact Us</h1>
+        <p><a href="index.html">Home</a> / Contact Us</p>
+        <p class="sub">We'd love to hear from you.</p>
+      </section>
+    </div>
+
+    <main class="wrap contact-page">
+      <section class="cinfo">
+        <h2>Get in touch</h2>
+        <p>
+          Message us on your favourite app or send the form. We reply as soon as
+          we can.
+        </p>
+        <div class="cgrid two">
+          <a class="cc wa" data-wa target="_blank" rel="noopener"
+            ><span class="ci">💬</span><b>WhatsApp</b
+            ><small data-text="phone"></small
+          ></a>
+          <a class="cc fb" data-fb target="_blank" rel="noopener"
+            ><span class="ci">f</span><b>Facebook page</b
+            ><small>Follow &amp; message us</small></a
+          >
+          <a class="cc" data-phone
+            ><span class="ci">📞</span><b>Call us</b
+            ><small data-text="phone"></small
+          ></a>
+          <a class="cc" data-email
+            ><span class="ci">✉</span><b>Email</b
+            ><small data-text="email"></small
+          ></a>
+        </div>
+        <ul class="details">
+          <li><b>Address</b><span data-text="address"></span></li>
+          <li><b>Opening hours</b><span data-text="hours"></span></li>
+        </ul>
+        <!-- MAP: paste your Google Maps embed <iframe> here (Google Maps → Share → Embed a map) -->
+      </section>
+      <section class="cform">
+        <h2>Send us a message</h2>
+        <form id="contactForm">
+          <label>Your name<input name="name" required /></label>
+          <label
+            >Phone / WhatsApp<input name="phone" type="tel" required
+          /></label>
+          <label
+            >Message<textarea
+              name="message"
+              rows="5"
+              required
+              placeholder="Which bag are you interested in?"
+            ></textarea>
+          </label>
+          <div class="actions">
+            <button class="btn wa-btn" type="submit">💬 Send on WhatsApp</button
+            ><button class="btn" type="button" id="mailBtn">
+              ✉ Send by email
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <a
+      class="float-wa"
+      data-wa
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+      >💬</a
+    >
+    <footer>
+      <div class="flinks">
+        <a href="index.html">Home</a><a href="shop.html">Shop</a
+        ><a href="pages.html">Pages</a><a href="about.html">About</a
+        ><a href="contact.html">Contact Us</a>
+      </div>
+      © <span id="yr"></span> Sophie. All rights reserved.
+    </footer>
+    <script src="site.js"></script>
+  </body>
+</html>
